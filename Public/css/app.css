@@ -12048,4 +12048,128 @@ textarea.form-control-lg {
   font-weight: 400;
 }
 
+.menu {
+  padding: 60px 20px;
+}
+.menu .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.menu .section-title h2, .menu .section-title .h2 {
+  color: #ffb03b;
+  font-size: 15px;
+  border-radius: 25px;
+  background-color: rgba(255, 177, 59, 0.137254902);
+  display: inline;
+  padding: 4px 12px;
+}
+.menu .section-title p {
+  font-size: 30px;
+  color: #444;
+  font-family: "Satisfy", sans-serif;
+}
+.menu .section-title p span {
+  color: #ffb03b;
+}
+.menu input[type=radio] {
+  display: none;
+}
+.menu .menu-filters {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+  font-family: "Satisfy", sans-serif;
+}
+.menu .menu-filters .filter {
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.menu .menu-filters .filter:hover {
+  color: #ffb03b;
+}
+.menu #filter-all:checked ~ .menu-filters label[for=filter-all],
+.menu #filter-starters:checked ~ .menu-filters label[for=filter-starters],
+.menu #filter-salads:checked ~ .menu-filters label[for=filter-salads],
+.menu #filter-specialty:checked ~ .menu-filters label[for=filter-specialty] {
+  color: #ffb03b;
+}
+.menu .menu-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.menu .menu-item {
+  display: flex;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  align-items: center;
+  gap: 15px;
+  transition: 0.3s;
+}
+.menu .menu-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: solid 7px rgba(220, 220, 220, 0.888);
+}
+.menu .menu-item h4, .menu .menu-item .h4 {
+  display: flex;
+  font-size: 17px;
+}
+.menu .menu-item h4:hover, .menu .menu-item .h4:hover {
+  color: #ffb03b;
+  cursor: pointer;
+}
+.menu .menu-item h4 .point, .menu .menu-item .h4 .point {
+  color: #777;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.menu .menu-item h4 .price, .menu .menu-item .h4 .price {
+  color: #ffb03b;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.menu .menu-item p {
+  font-size: 15px;
+  color: #777;
+}
+.menu {
+  /* ALL */
+}
+.menu #filter-all:checked ~ .menu-items .menu-item {
+  display: flex;
+}
+.menu {
+  /* STARTERS */
+}
+.menu #filter-starters:checked ~ .menu-items .menu-item {
+  display: none;
+}
+.menu #filter-starters:checked ~ .menu-items .starters {
+  display: flex;
+}
+.menu {
+  /* SALADS */
+}
+.menu #filter-salads:checked ~ .menu-items .menu-item {
+  display: none;
+}
+.menu #filter-salads:checked ~ .menu-items .salads {
+  display: flex;
+}
+.menu {
+  /* SPECIALTY */
+}
+.menu #filter-specialty:checked ~ .menu-items .menu-item {
+  display: none;
+}
+.menu #filter-specialty:checked ~ .menu-items .specialty {
+  display: flex;
+}
+
 /*# sourceMappingURL=app.css.map */
