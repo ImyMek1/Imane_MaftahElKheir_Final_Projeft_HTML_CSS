@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    // margin: 0;
+    // padding: 0;
+}
+
+.main-navbar {
+    background: transparent;
+    transition: 0.3s ease;
+    backdrop-filter: none;
+    display: grid;
+    padding-inline: 40px;
+
+    .navSection {
+    align-items: center;
+    }
+
+    .topHeader {
+        color: #fff;
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        column-gap: 50px;
+    }
+
+    .btnBook {
+        background: #ffb03b;
+        color: #fff;
+        border: none;
+        padding: 6px 30px 8px 30px;
+        border-radius: 30px;
+        font-weight: 600;
+
+        &:hover {
+            background-color: #ffb13b9d;
+        }
+    }
+
+    .logo {
+        font-size: 30px;
+        font-family: 'Satisfy', sans-serif;
+        color: #fff;
+        margin-right: 600px !important; 
+    }
+
+    .nav-link {
+        color: #fff;
+        font-weight: 500;
+        transition: 0.3s;
+        font-size: 14px;
+
+        &:hover,
+        &.active {
+            color: #ffb03b;
+        }
+    }
+    .navbar-nav {
+        gap: 20px;
+    }
+    #navmenu {
+        margin-left: -150px;
+    }
+}
+
+/* SCROLL EFFECT */
+@supports (animation-timeline: scroll()) {
+    .main-navbar {
+        animation: navbarScrollAnim linear both;
+        animation-timeline: scroll();
+        animation-range: 0 300px;
+    }
+
+    @keyframes navbarScrollAnim {
+        0% {
+            background: transparent;
+            backdrop-filter: blur(0px);
+        }
+        100% {
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(8px);
+        }
+    }
+}
+
+
+
+
+

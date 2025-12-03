@@ -1,12 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
     <link rel="stylesheet" href="./Public/css/app.css">
     <title>Delicious</title>
 </head>
-<body>
-    
+
+<body id="top">
+
+    <!-- Navbar -->
+    <header class="main-navbar navbar navbar-expand-lg fixed-top">
+          <!-- TOP HEADER -->
+    <div class="topHeader container">
+        <div class="left-top d-flex gap-4">
+            <div class="leftIcon d-flex align-items-center gap-2">
+                <i class="bi bi-phone" style="color: #ffb03b;"></i>
+                <p class="m-0">+1 5589 55488 55</p>
+            </div>
+
+            <div class="rightIcon d-flex align-items-center gap-2">
+                <i class="bi bi-clock" style="color: #ffb03b;"></i>
+                <p class="m-0">Mon-Sat: 11:00 AM - 23:00 PM</p>
+            </div>
+        </div>
+
+        <div class="right-top">
+            <button class="btnBook">Book a table</button>
+        </div>
+    </div>
+
+        <div class="navSection container d-flex justify-content-between align-items-center py-3">
+            <a class="navbar-brand logo" href="#home">Delicious</a>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Specials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Chefs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero & carousel -->
+    <section class="hero-section" id="home">
+
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active"
+                    style="background-image: url('/Public/images/hero-carousel/hero-carousel-1.jpg');">
+                    <div class="carousel-caption">
+                        <h2><span>Delicious</span> Restaurant</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="boxbtnhero">
+                            <button class="btnhero">Our Menu</button>
+                            <button class="btnhero">Book a table</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item"
+                    style="background-image: url('/Public/images/hero-carousel/hero-carousel-2.jpg');">
+                    <div class="carousel-caption">
+                        <h2>At vero eos et accusamus</h2>
+                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                            quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+                            Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                        <div class="boxbtnhero">
+                            <button class="btnhero">Our Menu</button>
+                            <button class="btnhero">Book a table</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item"
+                    style="background-image: url('/Public/images/hero-carousel/hero-carousel-3.jpg');">
+                    <div class="carousel-caption">
+                        <h2>Temporibus autem quibusdam</h2>
+                        <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                            aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                            nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                        <div class="boxbtnhero">
+                            <button class="btnhero">Our Menu</button>
+                            <button class="btnhero">Book a table</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+
+    </section>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- about section -->
+    <section class="about-section" id="about">
+        <!-- box -->
+        <div class="box">
+            <img src="./Public/images/about.jpg" alt="aboutimg">
+            <div class="box-type">
+                <div>
+                    <h1>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</span>
+                </div>
+                <div class="column">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            fill="currentColor">
+                            <path
+                                d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
+                            </path>
+                        </svg>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            fill="currentColor">
+                            <path
+                                d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
+                            </path>
+                        </svg>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit..</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            fill="currentColor">
+                            <path
+                                d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
+                            </path>
+                        </svg>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </div>
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident</p>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>

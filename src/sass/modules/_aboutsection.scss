@@ -1,0 +1,53 @@
+/* about section */
+.about-section{
+    margin-top: 6vw;
+    padding-inline: 40px;
+}
+.box{
+    display: flex;
+    gap: 2vw;
+}
+.box img {
+    width: 50%;
+    height: 60%;
+}
+.box .box-type{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;    
+}
+.box .box-type > .column > div {
+    display: flex;
+    column-gap: 5px;
+}
+.box .box-type > .column > div > svg {
+    color: #ffb03b;
+}
+.box .box-type > .column > div > p{
+    font-size: 15px;
+    width: 70%;
+    font-weight: 400;    
+    color: #000000cf;
+}
+.box .box-type > div {
+    display: flex;
+    flex-direction: column;
+}
+.box .box-type div > h1{
+    font-size: 25px;
+    font-weight: 500;    
+    color: #000000cf;
+    font-family: 'Satisfy', sans-serif;
+    font-weight: bold;
+}
+.box .box-type div > span{
+    font-size: 15px;    
+    font-style: italic; 
+}
+.box .box-type > p{
+    font-size: 15px;
+    width: 90%;
+    color: #000000cf;
+    font-weight: 400;
+}
+

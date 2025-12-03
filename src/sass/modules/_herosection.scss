@@ -1,0 +1,60 @@
+.hero-section {
+  height: 100vh;
+
+  .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+    }
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+    h2 {
+      font-size: 40px;
+      color: #fff;
+      font-weight: 700;
+      font-family: 'Satisfy', sans-serif;
+
+      span {
+        color: #ffb03b;
+      }
+    }
+
+    p {
+      color: #eee;
+      font-size: 15px;
+      margin-top: 30px;
+      animation: fadeInDown 1s both 0.2s;
+      
+    }
+  }
+}
+.btnhero {
+    border: 2px solid #ffb03b;
+    background-color: transparent;
+    color: #eee;
+    border-radius: 50px;
+    padding: 8px 32px;
+    animation: fadeInUp 1s both 0.4s;
+    transition: 0.5s;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+
+    &:hover{
+        background-color: #ffb03b;
+    }
+    
+}
