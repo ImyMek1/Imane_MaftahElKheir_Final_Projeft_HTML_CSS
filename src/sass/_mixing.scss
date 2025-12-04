@@ -1,0 +1,7 @@
+@mixin MyFlex ($param1, $direction, $param2, $param3, $param4){
+    display: $param1;
+    flex-direction: $direction;
+    align-items: $param2;
+    justify-content: $param3;
+    gap: $param4;
+}

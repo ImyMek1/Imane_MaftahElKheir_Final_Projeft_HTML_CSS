@@ -1,0 +1,39 @@
+.chef{
+    width: 99vw;
+    height: 80vh;
+    .section-title{
+        @include MyFlex(flex,column,center,center,10px);
+        h2 {
+             border: none;
+            width: 120px;
+            height: 30px;
+            background-color: #FFF7EB;
+            border-radius: 20px
+        }
+        p {
+           font-family: 'Satisfy', sans-serif;
+        }
+    }
+    }
+    .card-group{
+        padding-inline: 50px;
+        .card{
+            width: 400px;
+                    position: relative;
+            img{
+                width: 100%;
+                padding-left: 40px;
+            }
+        }
+        .card-body{
+            background-color: rgb(254, 254, 254);
+            width: 300px;
+            position: absolute;
+            left: 65px;
+            bottom: 10px;
+            .clas{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }

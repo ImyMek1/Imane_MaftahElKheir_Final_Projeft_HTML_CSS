@@ -11870,6 +11870,7 @@ textarea.form-control-lg {
   backdrop-filter: none;
   display: grid;
   padding-inline: 40px;
+  padding-top: 20px;
 }
 .main-navbar .navSection {
   align-items: center;
@@ -11881,15 +11882,16 @@ textarea.form-control-lg {
   grid-template-columns: 1fr auto;
   column-gap: 50px;
 }
-.main-navbar .btnBook {
+.main-navbar .booktbl {
   background: #ffb03b;
   color: #fff;
   border: none;
-  padding: 6px 30px 8px 30px;
+  padding: 6px 30px 10px 30px;
   border-radius: 30px;
   font-weight: 600;
+  text-decoration: none;
 }
-.main-navbar .btnBook:hover {
+.main-navbar .booktbl:hover {
   background-color: rgba(255, 177, 59, 0.6156862745);
 }
 .main-navbar .logo {
@@ -12248,6 +12250,7 @@ textarea.form-control-lg {
   background-position: 100%;
   background-size: cover;
   object-fit: cover;
+  height: 100vh;
 }
 
 #events::before {
@@ -12419,6 +12422,51 @@ textarea.form-control-lg {
   .gallery .gallery-container {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.chef {
+  width: 99vw;
+  height: 80vh;
+}
+.chef .section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.chef .section-title h2, .chef .section-title .h2 {
+  border: none;
+  width: 120px;
+  height: 30px;
+  background-color: #FFF7EB;
+  border-radius: 20px;
+}
+.chef .section-title p {
+  font-family: "Satisfy", sans-serif;
+}
+
+.card-group {
+  padding-inline: 50px;
+}
+.card-group .card {
+  width: 400px;
+  position: relative;
+}
+.card-group .card img {
+  width: 100%;
+  padding-left: 40px;
+}
+.card-group .card-body {
+  background-color: rgb(254, 254, 254);
+  width: 300px;
+  position: absolute;
+  left: 65px;
+  bottom: 10px;
+}
+.card-group .card-body .clas {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* MAP */

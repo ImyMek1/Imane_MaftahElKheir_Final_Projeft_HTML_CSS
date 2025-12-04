@@ -10,6 +10,7 @@
     backdrop-filter: none;
     display: grid;
     padding-inline: 40px;
+    padding-top: 20px;
 
     .navSection {
     align-items: center;
@@ -23,14 +24,14 @@
         column-gap: 50px;
     }
 
-    .btnBook {
+    .booktbl {
         background: #ffb03b;
         color: #fff;
         border: none;
-        padding: 6px 30px 8px 30px;
+        padding: 6px 30px 10px 30px;
         border-radius: 30px;
         font-weight: 600;
-
+        text-decoration: none;
         &:hover {
             background-color: #ffb13b9d;
         }
