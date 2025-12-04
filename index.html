@@ -14,24 +14,24 @@
 
     <!-- Navbar -->
     <header class="main-navbar navbar navbar-expand-lg fixed-top">
-          <!-- TOP HEADER -->
-    <div class="topHeader container">
-        <div class="left-top d-flex gap-4">
-            <div class="leftIcon d-flex align-items-center gap-2">
-                <i class="bi bi-phone" style="color: #ffb03b;"></i>
-                <p class="m-0">+1 5589 55488 55</p>
+        <!-- TOP HEADER -->
+        <div class="topHeader container">
+            <div class="left-top d-flex gap-4">
+                <div class="leftIcon d-flex align-items-center gap-2">
+                    <i class="bi bi-phone" style="color: #ffb03b;"></i>
+                    <p class="m-0">+1 5589 55488 55</p>
+                </div>
+
+                <div class="rightIcon d-flex align-items-center gap-2">
+                    <i class="bi bi-clock" style="color: #ffb03b;"></i>
+                    <p class="m-0">Mon-Sat: 11:00 AM - 23:00 PM</p>
+                </div>
             </div>
 
-            <div class="rightIcon d-flex align-items-center gap-2">
-                <i class="bi bi-clock" style="color: #ffb03b;"></i>
-                <p class="m-0">Mon-Sat: 11:00 AM - 23:00 PM</p>
+            <div class="right-top">
+                <button class="btnBook">Book a table</button>
             </div>
         </div>
-
-        <div class="right-top">
-            <button class="btnBook">Book a table</button>
-        </div>
-    </div>
 
         <div class="navSection container d-flex justify-content-between align-items-center py-3">
             <a class="navbar-brand logo" href="#home">Delicious</a>
@@ -176,108 +176,233 @@
     <!-- MenuSection -->
     <section id="menu" class="menu section-bg">
 
-    <div class="container">
+        <div class="container">
 
-    <div class="section-title">
-      <h2>MENU</h2><br><br>
-      <p>Check Our Tasty <span>Menu</span></p>
-    </div>
+            <div class="section-title">
+                <h2>MENU</h2><br><br>
+                <p>Check Our Tasty <span>Menu</span></p>
+            </div>
 
-    <!-- Radio Filters -->
-    <input type="radio" name="menu-filter" id="filter-all" checked>
-    <input type="radio" name="menu-filter" id="filter-starters">
-    <input type="radio" name="menu-filter" id="filter-salads">
-    <input type="radio" name="menu-filter" id="filter-specialty">
+            <!-- Radio Filters -->
+            <input type="radio" name="menu-filter" id="filter-all" checked>
+            <input type="radio" name="menu-filter" id="filter-starters">
+            <input type="radio" name="menu-filter" id="filter-salads">
+            <input type="radio" name="menu-filter" id="filter-specialty">
 
-    <ul class="menu-filters">
-      <label for="filter-all" class="filter">All</label>
-      <label for="filter-starters" class="filter">Starters</label>
-      <label for="filter-salads" class="filter">Salads</label>
-      <label for="filter-specialty" class="filter">Specialty</label>
-    </ul>
+            <ul class="menu-filters">
+                <label for="filter-all" class="filter">All</label>
+                <label for="filter-starters" class="filter">Starters</label>
+                <label for="filter-salads" class="filter">Salads</label>
+                <label for="filter-specialty" class="filter">Specialty</label>
+            </ul>
 
-    <!-- Menu Grid -->
-    <div class="menu-items">
+            <!-- Menu Grid -->
+            <div class="menu-items">
 
-      <!-- Starters -->
-      <div class="menu-item starters">
-        <img src="/Public/images/menu/lobster-bisque.jpg" alt="">
-        <div class="item-info">
-          <h4>Lobster Bisque<span><span class="point">..........................................................</span></span><span class="price">$5.95</span></h4>
-          <p>Lorem, deren, trataro, filede, nerada</p>
+                <!-- Starters -->
+                <div class="menu-item starters">
+                    <img src="/Public/images/menu/lobster-bisque.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Lobster Bisque<span><span
+                                    class="point">..........................................................</span></span><span
+                                class="price">$5.95</span></h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+
+                <div class="menu-item starters">
+                    <img src="/Public/images/menu/mozzarella.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Mozzarella Stick<span
+                                class="point">..........................................................</span><span
+                                class="price">$4.95</span></h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+
+                <div class="menu-item starters">
+                    <img src="/Public/images/menu/cake.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Crab Cake<span
+                                class="point">..................................................................</span><span
+                                class="price">$7.95</span></h4>
+                        <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+                    </div>
+                </div>
+
+                <!-- Salads -->
+                <div class="menu-item salads">
+                    <img src="/Public/images/menu/caesar.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Caesar Selections<span
+                                class="point">.......................................................</span><span
+                                class="price">$8.95</span></h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+
+                <div class="menu-item salads">
+                    <img src="/Public/images/menu/greek-salad.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Greek Salad<span
+                                class="point">.................................................................</span><span
+                                class="price">$9.95</span></h4>
+                        <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+                    </div>
+                </div>
+
+                <div class="menu-item salads">
+                    <img src="/Public/images/menu/spinach-salad.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Spinach Salad<span
+                                class="point">............................................................</span><span
+                                class="price">$9.95</span></h4>
+                        <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+                    </div>
+                </div>
+
+                <!-- Speciality -->
+                <div class="menu-item specialty">
+                    <img src="./Public/images/menu/bread-barrel.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Bread Barrel<span
+                                class="point">.................................................................</span><span
+                                class="price">$6.95</span></h4>
+                        <p>Juicy grilled beef steak with herbs.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item specialty">
+                    <img src="/Public/images/menu/tuscan-grilled.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Tuscan Grilled<span
+                                class="point">...........................................................</span><span
+                                class="price">$9.95</span></h4>
+                        <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+                    </div>
+                </div>
+
+                <div class="menu-item specialty">
+                    <img src="./Public/images/menu/lobster-roll.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Lobster Roll<span
+                                class="point">................................................................</span><span
+                                class="price">$12.95</span></h4>
+                        <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
+    </section>
 
-      <div class="menu-item starters">
-        <img src="/Public/images/menu/mozzarella.jpg" alt="">
-        <div class="item-info">
-          <h4>Mozzarella Stick<span class="point">..........................................................</span><span class="price">$4.95</span></h4>
-          <p>Lorem, deren, trataro, filede, nerada</p>
+    <!-- EventSection -->
+    <section id="events" class="events section-bg">
+        <div class="containerevent">
+
+            <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <!-- item 1 -->
+                    <div class="carousel-item active">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <img src="/Public/images/events-slider/events-slider-1.jpg" class="img-fluid rounded"
+                                    alt="">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <h3>Birthday Parties</h3>
+                                <div class="price"><span>$189</span></div>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <ul>
+                                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                    <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                        in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
+                                        nulla pariatur.</li>
+                                </ul>
+
+                                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- item 2 -->
+                    <div class="carousel-item">
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <img src="/Public/images/events-slider/events-slider-2.jpg" class="img-fluid rounded"
+                                    alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <h3>Private Parties</h3>
+                                <div class="price"><span>$290</span></div>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <ul>
+                                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                    <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                        in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
+                                        nulla pariatur.</li>
+                                </ul>
+
+                                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 3 -->
+                    <div class="carousel-item">
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <img src="/Public/images/events-slider/events-slider-3.jpg" class="img-fluid rounded"
+                                    alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <h3>Custom Parties</h3>
+                                <div class="price"><span>$99</span></div>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <ul>
+                                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                    <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                        in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
+                                        nulla pariatur.</li>
+                                </ul>
+
+                                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2"></button>
+                </div>
+
+            </div>
+
         </div>
-      </div>
-
-      <div class="menu-item starters">
-        <img src="/Public/images/menu/cake.jpg" alt="">
-        <div class="item-info">
-          <h4>Crab Cake<span class="point">..................................................................</span><span class="price">$7.95</span></h4>
-          <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
-        </div>
-      </div>
-
-      <!-- Salads -->
-      <div class="menu-item salads">
-        <img src="/Public/images/menu/caesar.jpg" alt="">
-        <div class="item-info">
-          <h4>Caesar Selections<span class="point">.......................................................</span><span class="price">$8.95</span></h4>
-          <p>Lorem, deren, trataro, filede, nerada</p>
-        </div>
-      </div>
-
-      <div class="menu-item salads">
-        <img src="/Public/images/menu/greek-salad.jpg" alt="">
-        <div class="item-info">
-          <h4>Greek Salad<span class="point">.................................................................</span><span class="price">$9.95</span></h4>
-          <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
-        </div>
-      </div>
-
-      <div class="menu-item salads">
-        <img src="/Public/images/menu/spinach-salad.jpg" alt="">
-        <div class="item-info">
-          <h4>Spinach Salad<span class="point">............................................................</span><span class="price">$9.95</span></h4>
-          <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
-        </div>
-      </div>
-
-      <!-- Speciality -->
-      <div class="menu-item specialty">
-        <img src="./Public/images/menu/bread-barrel.jpg" alt="">
-        <div class="item-info">
-          <h4>Bread Barrel<span class="point">.................................................................</span><span class="price">$6.95</span></h4>
-          <p>Juicy grilled beef steak with herbs.</p>
-        </div>
-      </div>
-
-      <div class="menu-item specialty">
-        <img src="/Public/images/menu/tuscan-grilled.jpg" alt="">
-        <div class="item-info">
-          <h4>Tuscan Grilled<span class="point">...........................................................</span><span class="price">$9.95</span></h4>
-          <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
-        </div>
-      </div>
-
-      <div class="menu-item specialty">
-        <img src="./Public/images/menu/lobster-roll.jpg" alt="">
-        <div class="item-info">
-          <h4>Lobster Roll<span class="point">................................................................</span><span class="price">$12.95</span></h4>
-          <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
+    </section>
 
 
 </body>
