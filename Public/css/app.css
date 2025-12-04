@@ -12022,6 +12022,12 @@ textarea.form-control-lg {
   background-color: #ffb03b;
   color: #fff;
 }
+.why-us .card:hover p {
+  color: #fff;
+}
+.why-us .card:hover span {
+  color: #fff;
+}
 .why-us .card span {
   display: block;
   font-size: 28px;
@@ -12517,6 +12523,96 @@ textarea.form-control-lg {
 
 .send-btn:hover {
   background: #e29a2e;
+}
+
+.footer {
+  background: #1a1814;
+  color: #fff;
+  font-size: 14px;
+  padding: 40px 0 0;
+  font-family: "Poppins", sans-serif;
+}
+.footer .footer-top {
+  padding: 40px 0;
+}
+.footer .footer-top .row {
+  margin: 0 -15px;
+}
+.footer .footer-top .row .col-lg-3, .footer .footer-top .row .col-md-6 {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.footer .footer-top h4, .footer .footer-top .h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Satisfy", cursive;
+}
+.footer .footer-top p {
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.footer .footer-top strong {
+  font-weight: 600;
+}
+.footer .footer-top i {
+  color: #ffb03b;
+  margin-right: 10px;
+}
+.footer .footer-top .footer-social .social-links {
+  display: flex;
+  gap: 10px;
+}
+.footer .footer-top .footer-social .social-links a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #b9b9b9;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff !important;
+  text-decoration: none;
+  line-height: 1 !important;
+  transition: all 0.3s ease;
+}
+.footer .footer-top .footer-social .social-links a i {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100%;
+  width: 100%;
+  line-height: 1 !important;
+  font-size: 18px;
+  padding-left: 7px;
+}
+.footer .footer-top .footer-social .social-links a:hover {
+  border-color: #ffb03b;
+  color: #ffb03b;
+}
+.footer hr {
+  border-top: 1px solid #2e2c28;
+  margin: 30px 0;
+}
+.footer .copyright,
+.footer .credits {
+  text-align: center;
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 5px;
+}
+.footer .copyright a,
+.footer .credits a {
+  color: #ffb03b;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer .copyright a:hover,
+.footer .credits a:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=app.css.map */
