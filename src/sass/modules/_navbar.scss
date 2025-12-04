@@ -83,7 +83,28 @@
     }
 }
 
+@media (max-width: 768px) {
+  .main-navbar {
+    .navSection {
+      padding: 15px 20px;
+    }
+    .topHeader {
+      padding: 8px 20px;
+      font-size: 13px;
+    }
+    .logo {
+      font-size: 26px;
+    }
+  }
+}
 
+@media (max-width: 425px) {
+  .main-navbar {
+    .navbar-nav {
+      gap: 15px;
+    }
+  }
+}
 
 
 
