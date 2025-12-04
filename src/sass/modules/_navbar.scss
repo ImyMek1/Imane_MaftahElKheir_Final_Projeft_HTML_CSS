@@ -62,7 +62,7 @@
     }
 }
 
-/* SCROLL EFFECT */
+/* Scroll Effect */
 @supports (animation-timeline: scroll()) {
     .main-navbar {
         animation: navbarScrollAnim linear both;

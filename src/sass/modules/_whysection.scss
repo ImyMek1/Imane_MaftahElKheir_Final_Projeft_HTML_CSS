@@ -38,6 +38,7 @@
 
         &:hover {
             background-color: #ffb03b;
+            color: #fff;
         }
 
         span {
@@ -46,13 +47,14 @@
             font-weight: 700;
             color: #ffb03b;
             margin-bottom: 15px;
+           
         }
 
         h4 {
             font-size: 22px;
             font-weight: 600;
             margin-bottom: 15px;
-
+            font-family: 'Satisfy', sans-serif;
         }
 
         p {
@@ -61,11 +63,11 @@
             line-height: 1.6;
         }
 
-        span,
-        h4,
-        p:hover {
-            color: #fff;
-        }
+        // span,
+        // h4,
+        // p :hover {
+        //     color: #fff;
+        // }
 
     }
 

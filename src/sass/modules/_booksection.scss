@@ -1,0 +1,81 @@
+.book-table {
+  padding: 60px 0;
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+
+   h2 {
+            color: #ffb03b;
+            font-size: 15px;
+            border-radius: 25px;
+            background-color: #ffb13b23;
+            display: inline;
+            padding: 4px 12px;
+        }
+
+        p {
+            font-size: 30px;
+            color: #444;
+            font-family: 'Satisfy', sans-serif;
+
+            span {
+                color: #ffb03b;
+            }
+        }
+  }
+
+  .book-img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .book-form {
+    width: 100%;
+    background-color: rgba(220, 220, 220, 0.242);;
+
+    .form-control {
+      padding: 12px 15px;
+      border-radius: 5px;
+      background: #fff;
+      border: 1px solid rgba(128, 128, 128, 0.42);
+      transition: 0.3s;
+
+      &::placeholder {
+        color: rgba(128, 128, 128, 0.518);
+      }
+
+      &:focus {
+        // border-color: #cda45e;
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: none;
+      }
+    }
+
+    textarea.form-control {
+      resize: none;
+    }
+
+    .book-btn {
+      background: #ffb03b;
+      padding: 12px 50px;
+      border-radius: 5px;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: #ffb13b9d;
+      }
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 991px) {
+    .book-img {
+      margin-bottom: 25px;
+    }
+  }
+}
