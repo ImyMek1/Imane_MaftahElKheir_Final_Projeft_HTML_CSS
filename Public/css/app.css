@@ -11985,6 +11985,79 @@ textarea.form-control-lg {
   background-color: #ffb03b;
 }
 
+.why-us {
+  padding: 60px 0;
+}
+.why-us .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.why-us .section-title h2, .why-us .section-title .h2 {
+  color: #ffb03b;
+  font-size: 15px;
+  border-radius: 25px;
+  background-color: rgba(255, 177, 59, 0.137254902);
+  display: inline;
+  padding: 4px 12px;
+}
+.why-us .section-title p {
+  font-size: 30px;
+  color: #444;
+  font-family: "Satisfy", sans-serif;
+}
+.why-us .section-title p span {
+  color: #ffb03b;
+}
+.why-us .why-us-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.why-us .card {
+  padding: 40px 30px;
+  border: none;
+  background-color: rgba(220, 220, 220, 0.242);
+}
+.why-us .card:hover {
+  background-color: #ffb03b;
+}
+.why-us .card span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffb03b;
+  margin-bottom: 15px;
+}
+.why-us .card h4, .why-us .card .h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.why-us .card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+.why-us .card span,
+.why-us .card h4,
+.why-us .card .h4,
+.why-us .card p:hover {
+  color: #fff;
+}
+.why-us {
+  /* Responsive */
+}
+@media (max-width: 991px) {
+  .why-us .why-us-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .why-us .why-us-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* about section */
 .about-section {
   margin-top: 6vw;
