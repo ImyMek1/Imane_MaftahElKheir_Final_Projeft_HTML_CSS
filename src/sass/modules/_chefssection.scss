@@ -1,6 +1,7 @@
 .chef{
     width: 99vw;
     height: 80vh;
+    margin-bottom: 60px;
     .section-title{
         @include MyFlex(flex,column,center,center,10px);
         h2 {
