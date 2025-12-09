@@ -73,7 +73,12 @@
   }
 
   /* Responsive */
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
+    .book-img {
+      margin-bottom: 25px;
+    }
+  }
+    @media (max-width: 425px) {
     .book-img {
       margin-bottom: 25px;
     }

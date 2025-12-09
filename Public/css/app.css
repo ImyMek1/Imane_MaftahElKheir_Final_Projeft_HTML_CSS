@@ -12317,6 +12317,36 @@ textarea.form-control-lg {
   display: flex;
 }
 
+.specials {
+  padding: 60px 0;
+}
+.specials .specials-tabs .nav-link {
+  border: none;
+  padding: 12px 15px;
+  font-weight: 600;
+  color: #444;
+  cursor: pointer;
+}
+.specials .specials-tabs .nav-link.active {
+  color: #ffb03b;
+}
+.specials .specials-tabs .nav-link:hover {
+  color: #ffb03b;
+}
+.specials .details h3, .specials .details .h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: "Satisfy", sans-serif;
+}
+.specials .details p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.specials .specials-img {
+  border-radius: 8px;
+}
+
 #events {
   background-image: url(/Public/images/events-bg.jpg);
   background-repeat: no-repeat;
@@ -12441,7 +12471,12 @@ textarea.form-control-lg {
 .book-table {
   /* Responsive */
 }
-@media (max-width: 991px) {
+@media (max-width: 768px) {
+  .book-table .book-img {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 425px) {
   .book-table .book-img {
     margin-bottom: 25px;
   }

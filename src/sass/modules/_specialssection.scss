@@ -1,0 +1,35 @@
+.specials {
+  padding: 60px 0;
+
+  .specials-tabs .nav-link {
+    border: none;
+    padding: 12px 15px;
+    font-weight: 600;
+    color: #444;
+    cursor: pointer;
+  }
+
+  .specials-tabs .nav-link.active {
+    color: #ffb03b;
+  }
+
+  .specials-tabs .nav-link:hover {
+    color: #ffb03b;
+  }
+
+  .details h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Satisfy', sans-serif;
+  }
+
+  .details p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .specials-img {
+    border-radius: 8px;
+  }
+}
