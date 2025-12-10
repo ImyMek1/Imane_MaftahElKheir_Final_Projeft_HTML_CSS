@@ -60,28 +60,114 @@
 }
 
 
-@media (max-width: 768px) {
+// @media (max-width: 768px) {
+//   .hero-section {
+//     .carousel-caption {
+//       h2 {
+//         font-size: 36px;
+//       }
+//       p {
+//         font-size: 14px;
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 425px) {
+//   .hero-section {
+//     .carousel-caption {
+//       h2 {
+//         font-size: 30px;
+//       }
+//       p {
+//         font-size: 13px;
+//       }
+//     }
+//   }
+// }
+
+/* =============================== */
+/* 📱 RESPONSIVE EXACT LIKE DELICIOUS */
+/* =============================== */
+
+/* TABLET */
+@media (max-width: 991px) {
   .hero-section {
+    height: 90vh;
+
+    .carousel-item {
+      height: 90vh;
+    }
+
     .carousel-caption {
       h2 {
-        font-size: 36px;
+        font-size: 40px;
       }
       p {
-        font-size: 14px;
+        font-size: 16px;
+        margin-top: 20px;
       }
     }
   }
 }
 
-@media (max-width: 425px) {
+/* MOBILE */
+@media (max-width: 768px) {
   .hero-section {
+    height: 80vh;
+
+    .carousel-item {
+      height: 80vh;
+    }
+
     .carousel-caption {
+      width: 75%;
+      top: 50%;
+      left: 13%;
+      transform: translateY(-50%);
+
       h2 {
-        font-size: 30px;
+        font-size: 34px;
       }
       p {
-        font-size: 13px;
+        font-size: 14px;
+        margin-top: 18px;
       }
     }
   }
+
+  .btnhero {
+    padding: 8px 26px;
+    font-size: 14px;
+  }
 }
+
+/* SMALL MOBILE */
+// @media (max-width: 480px) {
+//   .hero-section {
+//     height: 70vh;
+
+//     .carousel-item {
+//       height: 70vh;
+//       background-position: center right; // Comme le site
+//     }
+
+//     .carousel-caption {
+//       top: 55%;
+//       width: 95%;
+
+//       h2 {
+//         font-size: 28px;
+//         line-height: 1.2;
+//       }
+//       p {
+//         font-size: 13px;
+//       }
+//     }
+//   }
+
+//   .btnhero {
+//     padding: 6px 20px;
+//     font-size: 13px;
+//   }
+// }

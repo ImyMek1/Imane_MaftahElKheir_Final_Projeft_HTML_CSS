@@ -76,12 +76,107 @@
         // }
 
     }
+}
 
-    /* Responsive */
-    @media (max-width: 991px) {
-        .why-us-cards {
-            grid-template-columns: repeat(2, 1fr);
-        }
+/* ===========================
+   RESPONSIVE WHY-US (Delicious)
+   =========================== */
+
+/* TABLETTE ≤ 992px */
+@media (max-width: 992px) {
+  .why-us {
+    padding: 40px 0;
+
+    .section-title {
+      p {
+        font-size: 26px;
+      }
     }
 
+    .why-us-cards {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding-inline: 20px;
+    }
+
+    .card {
+      padding: 35px 25px;
+
+      span {
+        font-size: 26px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }
+
+/* MOBILE ≤ 768px */
+@media (max-width: 768px) {
+  .why-us {
+    .section-title {
+      p {
+        font-size: 24px;
+      }
+    }
+
+    .why-us-cards {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding-inline: 15px;
+    }
+
+    .card {
+      padding: 30px 20px;
+
+      span {
+        font-size: 24px;
+      }
+      h4 {
+        font-size: 19px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* SMALL MOBILE ≤ 480px */
+// @media (max-width: 480px) {
+//   .why-us {
+//     padding: 30px 0;
+
+//     .section-title {
+//       h2 {
+//         font-size: 13px;
+//       }
+//       p {
+//         font-size: 20px;
+//       }
+//     }
+
+//     .why-us-cards {
+//       grid-template-columns: 1fr;
+//       padding-inline: 10px;
+//     }
+
+//     .card {
+//       padding: 25px 20px;
+
+//       span {
+//         font-size: 22px;
+//       }
+//       h4 {
+//         font-size: 18px;
+//       }
+//       p {
+//         font-size: 13px;
+//       }
+//     }
+//   }
+// }

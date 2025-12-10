@@ -51,53 +51,217 @@
     font-weight: 400;
 }
 
+/* ===========================
+    RESPONSIVE ABOUT SECTION
+   =========================== */
+
+/* TABLETTE ≤ 992px */
+@media (max-width: 992px) {
+  .about-section {
+    padding-inline: 20px;
+  }
+
+  .box {
+    gap: 20px;
+  }
+
+  .box img {
+    width: 60%;
+    height: auto;
+  }
+
+  .box .box-type > div > h1 {
+    font-size: 22px;
+  }
+
+  .box .box-type > p {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+/* TABLETTE ≤ 768px (stack comme Delicious) */
 @media (max-width: 768px) {
-    .box {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .about-section {
+    margin-top: 10vw;
+  }
 
-    .box img {
-        width: 80%;
-        height: auto;
-    }
+  .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .box .box-type > .column > div {
-        justify-content: center;
-    }
+  .box img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
 
-    .box .box-type > .column > div > p {
-        width: 100%;
-        text-align: center;
-    }
+  .box .box-type > div > h1 {
+    font-size: 24px;
+  }
 
-    .box .box-type > p {
-        width: 100%;
-        text-align: center;
-    }
+  .box .box-type > .column > div {
+    justify-content: center;
+  }
+
+  .box .box-type > p {
+    width: 100%;
+  }
 }
 
-@media (max-width: 425px) {
+/* MOBILE ≤ 576px — EXACT STYLE DELICIOUS */
+@media (max-width: 576px) {
+  .about-section {
+    padding-inline: 15px;
+  }
 
-    .about-section{
-        padding-inline: 20px;
-    }
+  .box img {
+    width: 95%;
+  }
 
-    .box img {
-        width: 100%;
-    }
+  .box .box-type {
+    gap: 20px;
+  }
 
-    .box .box-type div > h1{
-        font-size: 22px;
-    }
+  .box .box-type > div > h1 {
+    font-size: 22px;
+  }
 
-    .box .box-type > p,
-    .box .box-type > .column > div > p {
-        font-size: 14px;
-    }
+  .box .box-type div > span {
+    font-size: 14px;
+  }
 
-    .box {
-        gap: 20px;
-    }
+  .box .box-type > p {
+    font-size: 14px;
+  }
+
+  .box .box-type > .column > div > p {
+    font-size: 14px;
+    width: 100%;
+  }
 }
+
+/* SMALL MOBILE ≤ 420px */
+// @media (max-width: 420px) {
+//   .box img {
+//     width: 100%;
+//   }
+
+//   .box .box-type > div > h1 {
+//     font-size: 20px;
+//   }
+
+//   .box .box-type > p,
+//   .box .box-type .column > div > p {
+//     font-size: 13px;
+//   }
+// }
+/* ===========================
+    RESPONSIVE ABOUT SECTION
+   =========================== */
+
+/* TABLETTE ≤ 992px */
+@media (max-width: 992px) {
+  .about-section {
+    padding-inline: 20px;
+  }
+
+  .box {
+    gap: 20px;
+  }
+
+  .box img {
+    width: 60%;
+    height: auto;
+  }
+
+  .box .box-type > div > h1 {
+    font-size: 22px;
+  }
+
+  .box .box-type > p {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+/* TABLETTE ≤ 768px (stack comme Delicious) */
+@media (max-width: 768px) {
+  .about-section {
+    margin-top: 10vw;
+  }
+
+  .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .box .box-type > div > h1 {
+    font-size: 24px;
+  }
+
+  .box .box-type > .column > div {
+    justify-content: center;
+  }
+
+  .box .box-type > p {
+    width: 100%;
+  }
+}
+
+/* MOBILE ≤ 576px — EXACT STYLE DELICIOUS */
+@media (max-width: 576px) {
+  .about-section {
+    padding-inline: 15px;
+  }
+
+  .box img {
+    width: 95%;
+  }
+
+  .box .box-type {
+    gap: 20px;
+  }
+
+  .box .box-type > div > h1 {
+    font-size: 22px;
+  }
+
+  .box .box-type div > span {
+    font-size: 14px;
+  }
+
+  .box .box-type > p {
+    font-size: 14px;
+  }
+
+  .box .box-type > .column > div > p {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+/* SMALL MOBILE ≤ 420px */
+// @media (max-width: 420px) {
+//   .box img {
+//     width: 100%;
+//   }
+
+//   .box .box-type > div > h1 {
+//     font-size: 20px;
+//   }
+
+//   .box .box-type > p,
+//   .box .box-type .column > div > p {
+//     font-size: 13px;
+//   }
+// }
+
+

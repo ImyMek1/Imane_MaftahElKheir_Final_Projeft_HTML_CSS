@@ -83,28 +83,87 @@
     }
 }
 
-@media (max-width: 768px) {
+// @media (max-width: 768px) {
+//   .main-navbar {
+//     .navSection {
+//       padding: 15px 20px;
+//     }
+//     .topHeader {
+//       padding: 8px 20px;
+//       font-size: 13px;
+//     }
+//     .logo {
+//       font-size: 26px;
+//     }
+//   }
+// }
+
+// @media (max-width: 425px) {
+//   .main-navbar {
+//     .navbar-nav {
+//       gap: 15px;
+//     }
+//   }
+// }
+
+
+
+/* =============================== */
+/* 📱 RESPONSIVE EXACT LIKE DELICIOUS */
+/* =============================== */
+
+/* TABLET */
+@media (max-width: 991px) {
   .main-navbar {
-    .navSection {
-      padding: 15px 20px;
-    }
+    padding-inline: 20px;
+    padding-top: 15px;
+
+    /* REMOVE TOP HEADER */
     .topHeader {
-      padding: 8px 20px;
-      font-size: 13px;
+      display: none;
     }
+
     .logo {
       font-size: 26px;
     }
-  }
-}
 
-@media (max-width: 425px) {
-  .main-navbar {
+    /* NAVBAR collapses vertically */
     .navbar-nav {
+      flex-direction: column;
       gap: 15px;
+      margin-top: 15px;
+      align-items: flex-start;
+    }
+
+    /* MENU container pushes down */
+    #navmenu {
+      margin-left: 0;
     }
   }
 }
 
+/* MOBILE */
+@media (max-width: 768px) {
+  .main-navbar {
+    .navSection {
+      padding: 10px 0;
+    }
 
+    /* LOGO centered on mobile */
+    .logo {
+      font-size: 24px;
+      margin: 0 auto;
+    }
+  }
+}
 
+/* SMALL MOBILE */
+// @media (max-width: 480px) {
+//   .main-navbar {
+//     padding-inline: 15px;
+
+//     .navbar-nav {
+//       gap: 10px;
+//     }
+//   }
+// }
